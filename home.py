@@ -9,7 +9,7 @@ def home():
     # Page configs (tab title, favicon)
     st.set_page_config(
         page_title="Vinh Nguyen's Portfolio",
-        page_icon="🍕",
+        page_icon="🐱",
     )
 
     # CSS styles file
@@ -51,14 +51,14 @@ def home():
     # """, unsafe_allow_html=True)
 
     # Subtitle
-    st.write(f"""<div class="subtitle" style="text-align: center;">Machine Learning Engineer</div>""", unsafe_allow_html=True)
+    st.write(f"""<div class="subtitle" style="text-align: center;">Machine Learning & AI Engineer</div>""", unsafe_allow_html=True)
 
     # Social Icons
     social_icons = {
         # Platform: [URL, Icon]
         # "Kaggle": ["https://www.kaggle.com/edomingo", "https://www.kaggle.com/static/images/site-logo.svg"],
         "LinkedIn": ["https://www.linkedin.com/in/vinh-nguyen-huynh-quang/", "https://cdn-icons-png.flaticon.com/512/174/174857.png"],
-        "GitHub": ["https://github.com/neverstoprunning0808", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"],
+        "GitHub": ["https://github.com/neverstoprunning0808", "https://img.icons8.com/ios-filled/50/ffffff/github.png"],
     }
 
     social_icons_html = [f"<a href='{social_icons[platform][0]}' target='_blank' style='margin-right: 10px;'><img class='social-icon' src='{social_icons[platform][1]}'' alt='{platform}''></a>" for platform in social_icons]
@@ -77,7 +77,7 @@ def home():
 
     - ❤️ I am passionate about **Machine Learning/Deep Learning, MLOps, Data, LLM, Computer Vision**, and more!
         
-    - 🏋️‍♂️ Also practicing sports like AFL 🏈 and football ⚽
+    - 🏈 Also practicing sports like AFL and football.
     
     - 📫 How to reach me: vinh.nguyenhuynhquang@utexas.edu
     
