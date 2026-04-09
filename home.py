@@ -1,6 +1,8 @@
 import streamlit as st
 import base64
 
+# st.set_page_config(layout="wide")
+
 def home():
     # st.write("hello")
 
@@ -71,9 +73,9 @@ def home():
     # About me section
     st.subheader("About Me")
     st.write("""
-    - 🧑‍💻 I am a **ML and AI enthusiast** - a fresh graduate from the Master of Science in AI program at UT Austin.  
+    - 🧑‍💻 I am a **ML and AI enthusiast**, a recent graduate from the Master of Science in AI program at UT Austin.
 
-    - ❤️ I am passionate about **Machine Learning/Deep Learning, MLOps, Data, Software Engineering, Computer Vision, Bioinformatics, UAVs, Optimization, Automation**, and more!
+    - ❤️ I am passionate about **Machine Learning/Deep Learning, MLOps, Data, LLM, Computer Vision**, and more!
         
     - 🏋️‍♂️ Also practicing sports like AFL 🏈 and football ⚽
     
