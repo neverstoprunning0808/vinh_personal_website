@@ -76,8 +76,28 @@ def portfolio():
                 "demo": None,
                 "code": "https://github.com/neverstoprunning0808/Finetune-YOLOv11-Custom-CRNN-STR",
             },
+                                    {
+                "title": "Brain Tumor Segmentation",
+                "description": (
+                    "A UNET model with a ResNet-34 encoder trained on multi-modal MRI scans to automatically segment brain tumors,"
+                    " achieving an IoU score of 0.65 on the validation set."
+                ),
+                "stack": ["Python", "PyTorch", "UNET", "ResNet", "IoU", "Segmentation"],
+                "demo": None,
+                "code": "https://github.com/neverstoprunning0808/brain-tumor-segmentation-unet-resnet34",
+            },
+                        {
+                "title": "Self-Supervised Contrastive Learning",
+                "description": (
+                    "Built a ResNet-18–based contrastive learning model for chest X-ray pneumonia classification, "
+                    "achieving 81.25% accuracy with limited labeled data."
+                ),
+                "stack": ["Python", "PyTorch", "ResNet", "Self-supervised", "Contrastive Learning"],
+                "demo": None,
+                "code": "https://github.com/neverstoprunning0808/self-supervised-contrastive-learning-for-pneumonia-detection",
+            }
         ],
-        "⚙️ MLOps": [
+        "⚙️ MLOps & Cloud": [
             {
                 "title": "MLOps Pipeline System",
                 "description": (
@@ -88,7 +108,16 @@ def portfolio():
                 "demo": None,
                 "code": "https://github.com/neverstoprunning0808/dvc-hydra-mlflow-ml-pipeline",
             },
-            
+            {
+                "title": "CI/CD Pipeline with GitHub Actions",
+                "description": (
+                    "A 'Hello World' CI/CD pipeline using GitHub Actions, Docker, and pytest to automate testing and containerization of a Python app."
+                ),
+                "stack": ["Python", "GitHub Actions", "Docker", "Pytest", "Flask"],
+                "demo": None,
+                "code": "https://github.com/neverstoprunning0808/ci_cd_101",
+            },
+
             {
                 "title": "Blog Web",
                 "description": (
