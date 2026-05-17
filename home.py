@@ -113,7 +113,7 @@ def portfolio():
                 "description": (
                     "A 'Hello World' CI/CD pipeline using GitHub Actions, Docker, and pytest to automate testing and containerization of a Python app."
                 ),
-                "stack": ["Python", "GitHub Actions", "Docker", "Pytest", "Flask"],
+                "stack": ["Python", "GitHub Actions", "Docker", "Pytest", "CI/CD"],
                 "demo": None,
                 "code": "https://github.com/neverstoprunning0808/ci_cd_101",
             },
