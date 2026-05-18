@@ -127,6 +127,16 @@ def portfolio():
                 "demo": None,
                 "code": "https://github.com/neverstoprunning0808/fastapi-jinja-postgresql-jwt-web-app",
             },
+            {
+                "title": "MLflow Tracking Server on AWS",
+                "description": (
+                    "Built an MLflow Tracking Server using AWS EC2, and S3 to enable remote experiment tracking,"
+                    " and artifact storage from local training workflows."
+                ),
+                "stack": ["Python", "Mlflow", "AWS EC2", "Amazon S3", "Sklearn", "Pandas"],
+                "demo": None,
+                "code": "https://github.com/neverstoprunning0808/aws_mlflow",
+            },
         ],
     }
 
