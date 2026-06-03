@@ -12,6 +12,16 @@ def portfolio():
     groups = {
         "🔍 AI Assistants & RAG": [
             {
+                "title": "Myth-GraphRAG: Knowledge Graph for Literary QA",
+                "description": (
+                    """Built a GraphRAG system for The Odyssey by constructing a knowledge graph, and
+                evaluated BaseRAG (vector search), GraphRAG (Global Search vs Local Search) on 20 benchmark
+                questions using relevance, completeness, and faithfulness metrics.\n"""
+                ),
+                "stack": ["Python", "ChromaDB", "Neo4j", "GraphRAG"],
+                "code": "https://github.com/neverstoprunning0808/Myth-GraphRAG",
+            },
+            {
                 "title": "Multi-Document RAG Assistant",
                 "description": (
                     "Built a Retrieval-Augmented Generation (RAG) chatbot supporting pdf, docx, and txt document ingestion with"
@@ -205,7 +215,7 @@ def home():
     """, unsafe_allow_html=True)
 
     # Subtitle
-    st.write(f"""<div class="subtitle" style="text-align: center;">Machine Learning & AI Engineer</div>""", unsafe_allow_html=True)
+    st.write(f"""<div class="subtitle" style="text-align: center;">Machine Learning & AI Enthusiast</div>""", unsafe_allow_html=True)
 
     # Social Icons
     social_icons = {
@@ -228,11 +238,11 @@ def home():
     st.subheader("🙋‍♂️ About Me")
     st.write("""
     - 🧑‍💻 I am a **ML and AI enthusiast**, a recent graduate from the Master of Science in AI program at UT Austin.
-    - ❤️ I am passionate about **Machine Learning, LLM, Computer Vision**, and more!
+    - ❤️ I am passionate about **ML, RAG, Agentic System, LLM, Computer Vision**, and more!
     - 🏈 I can't wait to have my first footy kick in 🇦🇺! Same to football and rugby touch.
     - 📫 Contact me: vinh.nguyenhuynhquang@utexas.edu
     - 📍 Current location: Melbourne 🇦🇺
-    - 🪪 Work Permit: full work rights in 🇦🇺 until 2030.
+    - 🪪 Work Permit: full work rights in 🇦🇺 and 🇨🇦 .
     """)
 
     st.write("##")
