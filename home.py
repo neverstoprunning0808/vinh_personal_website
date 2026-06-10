@@ -10,13 +10,21 @@ def portfolio():
     st.write("---")
 
     groups = {
-        "🔍 AI Assistants & RAG": [
+        "🔍 Agentic & RAG system": [
             {
-                "title": "Myth-GraphRAG: Knowledge Graph for Literary QA",
+                "title": "Lite ReAct Agent",
                 "description": (
-                    """Built a GraphRAG system for The Odyssey by constructing a knowledge graph, and
-                evaluated BaseRAG (vector search), GraphRAG (Global Search vs Local Search) on 20 benchmark
-                questions using relevance, completeness, and faithfulness metrics.\n"""
+                    """Designed and implemented a ReAct agent framework from scratch with tool abstraction, MCP integration, event
+                    tracking, and local workspace, enabling multi-step reasoning and tool-augmented problem solving.\n"""
+                ),
+                "stack": ["Python", "LiteLLM", "MCP", "Tavily", "GAIA"],
+                "code": "https://github.com/neverstoprunning0808/light-react-agent",
+            },
+            {
+                "title": "Myth-GraphRAG",
+                "description": (
+                    """Built a GraphRAG system for The Odyssey by constructing a knowledge graph of entities and relationships, with
+                two retrieval strategies: Global Search (community summaries) and Local Search (entity-based traversal)\n"""
                 ),
                 "stack": ["Python", "ChromaDB", "Neo4j", "GraphRAG"],
                 "code": "https://github.com/neverstoprunning0808/Myth-GraphRAG",
